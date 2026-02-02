@@ -1,1 +1,10 @@
-# 99.-write-a-program-to-find-the-value-of-one-number-raised-to-the-power-of-another.
+m = int(input('Enter First value: '))
+n = int(input('Enter Second value: '))
+p = m ** n
+print('{0} Raise to {1} = {2}'.format(m, n, p))
+
+
+output:
+Enter First value: 4
+Enter Second value: 7
+4 Raise to 7 = 16384
